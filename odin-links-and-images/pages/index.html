@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <!-- Anchor element test to make a clickable link -->
+    <a href = "https://www.theodinproject.com/about">Click me!</a>
+    <!-- if there is no href attribute the text will look like plain text -->
+    <a href = "https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click me!</a>
+    <!-- href specifies the destination link, target specifies where the linked resource will be opened -->
+    <!-- rel attributed is used to describe the relaiton between current page and linked doc
+    noopener value prevents the opened link from gaininig access to the webpage from which i twas opened
+    noreffer prevents the opened link from knowing which webpage or resource has a link to it
+    We do this to orevent phishing attacks where the opened link may change to a different one to trick users
+      -->
+    <a href="./about.html">About</a>
+    <img src="https://www.theodinproject.com/mstile-310x310.png" alt = "The Odin Project Logo" height = "310" width = "310">
+    <img src= "./images/dog.jpg" alt ="Dog Image">
+</body>
+</html>
